@@ -250,6 +250,90 @@ margin-top: 150px;
 .card span {
     text-decoration: underline;
 }
+/*  Join Section */
+
+.newsletter-section {
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("./news-letter-bg.png");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.newsletter-section h2 {
+    color: white;
+}
+
+.submission-box button {
+    background-color: #E95A08;
+    padding: 20px 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+
+.submission-box input[type="email"] {
+    width: 100%;
+    padding: 8px 20px;
+    outline: none;
+}
+
+.submission-box input[type="email"]::placeholder {
+    font-size: 16px;
+    color: #000000;
+}
+
+.submission-box {
+    display: flex;
+    width: 70%;
+    border: none;
+
+}
+
+
+
+/* footer Section */
+
+
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding:  50px 0;
+}
+
+.paragraph-section {
+     font-family: "Inter", sans-serif;
+     width: 369px;
+     font-size: 22px;
+     font-weight: 400;
+     margin-top: 20px;
+       color: #8987A1;
+}
+.footer-ul{
+    list-style: none;
+}
+
+.footer-ul li{
+    
+    font-size: 25px;
+    color: #8987A1;
+    margin-top: 20px;
+
+}
+
+.footer-icon img{
+  margin-left: 30px;
+ 
+}
+
 
 
 
