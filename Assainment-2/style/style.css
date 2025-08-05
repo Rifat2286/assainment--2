@@ -146,6 +146,48 @@ margin-top: 150px;
     background-color: #E95A08;
 }
 
+/* Plants Lover Section */
+.display-flex {
+    display: flex;
+
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: 22px;
+    color: #000000;
+}
+
+.section-gap {
+    margin-top: 60px;
+}
+
+.list-item {
+    margin-top: 20px;
+}
+
+.flower-container {
+    gap: 60px;
+}
+
+.badge {
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -100px;
+    right: -90px;
+    filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.image-container {
+    position: relative;
+}
+
+
 
 
 
